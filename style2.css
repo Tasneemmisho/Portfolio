@@ -1,0 +1,124 @@
+#divone {
+    margin-top: 100px;
+}
+nav ul {
+    padding: 5px;
+    font-size: 20px;
+    padding-top: 12px;
+    margin-top: -10px;
+    margin-left: 0px;
+    text-align:right;
+    border-radius: 5px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 20px;
+    color: rgb(63,30,39);
+    font-style: bold;
+    text-shadow: 4px 4px 10px rgba(63, 30, 39, 0.5);
+}
+nav ul li a:hover {
+    color: orange;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(63,30,39);
+    text-shadow: 4px 4px 5px rgba(252, 220, 173, 0.555);
+}
+#egypt {
+    width: 58.5%;
+    margin-left: 374px;
+    border-radius: 0px;
+
+}
+#cook {
+    width: 58.5%;
+    margin-left: 374px;
+    border-radius: 0px;
+}
+#hhh {
+    margin-left: 120px;
+}
+#ppp {
+    margin-left: 45px;
+    color: rgb(63,30,39);
+    width:300px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+#hhh {
+    margin-left: 45px;
+    color: orange;
+    width:300px;
+    margin-top: -250px;
+    font-size: 30px; 
+}
+p {
+    margin-left: 40px;
+    color: beige;
+}
+body {
+    background-color: rgb(244, 244, 236);
+}
+#divone {
+    width: 900px;
+    height: 300px;
+    background-color: white;
+    z-index: 0;
+    margin-left: 200px;
+    border-bottom: solid 6px rgb(63,30,39);
+    border-right: solid 6px rgb(63,30,39);
+}
+#divone:hover {
+    box-shadow: 4px 4px 500px rgba(65, 43, 9, 1); 
+}
+h1 {
+    font-size: 55px;
+    margin-bottom: -50px;
+    color: rgb(63,30,39);
+}
+#divtwo {
+    width: 900px;
+    height: 300px;
+    background-color: white;
+    z-index: 0;
+    margin-left: 200px;
+    border-bottom: solid 6px rgb(63,30,39);
+    border-right: solid 6px rgb(63,30,39);
+    margin-top: 50px;
+}
+#divtwo:hover {
+    box-shadow: 4px 4px 500px rgba(65, 43, 9, 1); 
+}
+@media (max-width: 665px) {
+    nav ul {
+        margin-right: 0px;
+    }
+    #divone {
+        width: 100%;
+        margin-left: 0px;
+        height: 600px;
+    }
+    #hhh {
+        margin-top: 50px;
+    }
+    #ppp {
+        margin-top: 50px;
+        width: 100%;
+    }
+    #egypt {
+        width: 100%;
+        margin-left: 0px;
+    }
+    #divtwo {
+        width: 100%;
+        margin-left: 0px;
+        height: 600px;
+    }
+    #cook {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
